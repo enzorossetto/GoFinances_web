@@ -43,7 +43,7 @@ const Import: React.FC = () => {
     const filesWithProps: FileProps[] = files.map(file => ({
       file,
       name: file.name,
-      readableSize: `${(file.size / 1000).toPrecision(2)} kB`,
+      readableSize: filesize(file.size),
     }));
 
     setUploadedFiles([...uploadedFiles, ...filesWithProps]);
