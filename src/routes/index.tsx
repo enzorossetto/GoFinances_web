@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import Dashboard from '../pages/Dashboard';
 import Import from '../pages/Import';
-import Register from '../pages/Register';
+// import Register from '../pages/Register';
 
 const Routes: React.FC = () => (
   <Switch>
